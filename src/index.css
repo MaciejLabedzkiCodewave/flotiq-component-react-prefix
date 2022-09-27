@@ -1,0 +1,21 @@
+@import "./styles/preflight-edited.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fq-parent-hover-opacity-anchor .fq-children-opacity-anchor{
+  opacity: 0;
+}
+
+.fq-parent-hover-opacity-anchor:hover .fq-children-opacity-anchor{
+  opacity: 0.6;
+}  
